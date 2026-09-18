@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Models (large binary files)
+*.pt
+
+# Datasets (downloaded at training time)
+terrabot-vision/training/datasets/
+terrabot-vision/training/merged_dataset/
+terrabot-vision/training/runs/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# Captured images
+webcam_esp32/
